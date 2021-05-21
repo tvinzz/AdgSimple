@@ -17,11 +17,11 @@ class ConverterService {
         do {
             let rules = try String(contentsOf: filePath!, encoding: .utf8)
             let result = rules.components(separatedBy: "\n")
-            print(result)
+            NSLog("\(result)")
             return result
         }
         catch {
-            print("Error reading test filter")
+            NSLog("Error reading test filter")
         }
         return nil
     }
@@ -41,11 +41,13 @@ class ConverterService {
         let dir = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.AdgSimple")
 
         let fileURL = dir!.appendingPathComponent(Constants.blockerListFilename)
+        
+        NSLog("Path to the content blocker: \(fileURL.absoluteString)")
         do {
             try rules.write(to: fileURL)
         }
         catch {
-            print("Error saving conversion result")
+            NSLog("Error saving conversion result")
         }
     }
     
