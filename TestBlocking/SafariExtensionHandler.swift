@@ -7,6 +7,7 @@
 //
 
 import SafariServices
+import Foundation
 
 class SafariExtensionHandler: SFSafariExtensionHandler {
 
@@ -51,5 +52,21 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     // Returns true if verbose logging setting is enabled
     private func isVerboseLoggingEnabled() -> Bool {
         return true;
+    }
+    
+    override func beginRequest(with context: NSExtensionContext) {
+        
+        let documentFolder = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.AdgSimple")
+
+        guard let jsonURL = documentFolder?.appendingPathComponent(Constants.blockerListFilename) else {
+                    return
+                }
+        
+        let attachment = NSItemProvider(contentsOf: jsonURL)!
+        
+        let item = NSExtensionItem()
+        item.attachments = [attachment]
+        
+        context.completeRequest(returningItems: [item], completionHandler: nil)
     }
 }

@@ -27,9 +27,27 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.Safari.content-blocker</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
+		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
+		<key>SFSafariContentScript</key>
+		<array>
+			<dict>
+				<key>Script</key>
+				<string>scriptlets.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>extended-css.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>script.js</string>
+			</dict>
+		</array>
 		<key>SFSafariWebsiteAccess</key>
-		<string>All</string>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
 	</dict>
 	<key>NSHumanReadableDescription</key>
 	<string>AdGuard extension to test rules conversion result</string>

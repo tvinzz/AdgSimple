@@ -29,18 +29,20 @@ class ConverterService {
     /**
      * Converts rules
      */
-    static func convertRules(rules: [String]) -> String? {
-        let result: ConversionResult? = ContentBlockerConverter().convertArray(rules: rules)
-        return result!.converted
+    static func convertRules(rules: [String]) -> ConversionResult? {
+        let result: ConversionResult? = ContentBlockerConverter().convertArray(rules: rules, advancedBlocking: true)
+        NSLog("Converted: \(result!.converted)")
+        NSLog("Advanced Blocking: \(result!.advancedBlocking ?? "Empty")")
+        return result!
     }
     
     /**
      * Writes conversion result into file in groups directory
      */
-    static func saveConversionResult(rules: Data) {
+    static func saveConversionResult(rules: Data, fileName: String) {
         let dir = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.AdgSimple")
 
-        let fileURL = dir!.appendingPathComponent(Constants.blockerListFilename)
+        let fileURL = dir!.appendingPathComponent(fileName)
         
         NSLog("Path to the content blocker: \(fileURL.absoluteString)")
         do {
@@ -53,7 +55,13 @@ class ConverterService {
     
     static func applyConverter() {
         let rulesList = getRules()!
-        let rulesData = convertRules(rules: rulesList)!.data(using: .utf8)
-        saveConversionResult(rules: rulesData!)
+        
+        let rulesData = convertRules(rules: rulesList)!.converted.data(using: .utf8)
+        saveConversionResult(rules: rulesData!, fileName: Constants.blockerListFilename)
+        
+        if (convertRules(rules: rulesList)!.advancedBlocking != nil) {
+            let advancedBlockingrulesData = convertRules(rules: rulesList)!.advancedBlocking!.data(using: .utf8)
+            saveConversionResult(rules: advancedBlockingrulesData!, fileName: Constants.advancedBlockerListFilename)
+        }
     }
 }
