@@ -13,7 +13,7 @@ class ConverterService {
      * Reads rules from test filter
      */
     static func getRules() -> [String]? {
-        let filePath = Bundle.main.url(forResource: "test-filter", withExtension: "txt")
+        let filePath = Bundle.main.url(forResource: "custom-filter", withExtension: "txt")
         do {
             let rules = try String(contentsOf: filePath!, encoding: .utf8)
             let result = rules.components(separatedBy: "\n")

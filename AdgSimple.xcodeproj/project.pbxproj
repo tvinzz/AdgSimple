@@ -21,6 +21,18 @@
 		B4AA2D31264F05F9008F224E /* TestBlocking.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4AA2D24264F05F9008F224E /* TestBlocking.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B4AA2DBF264F6127008F224E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA2D26264F05F9008F224E /* Cocoa.framework */; };
 		B4AA2E59265031D5008F224E /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2E58265031D5008F224E /* ConverterService.swift */; };
+		B4D97438265C85BA00ACF645 /* BlockerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9742E265C85B900ACF645 /* BlockerEntry.swift */; };
+		B4D97439265C85BA00ACF645 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9742F265C85B900ACF645 /* NetworkEngine.swift */; };
+		B4D9743A265C85BA00ACF645 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97430265C85BA00ACF645 /* SafariExtensionHandler.swift */; };
+		B4D9743B265C85BA00ACF645 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */; };
+		B4D9743C265C85BA00ACF645 /* BlockerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97432265C85BA00ACF645 /* BlockerData.swift */; };
+		B4D9743D265C85BA00ACF645 /* extended-css.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D97433265C85BA00ACF645 /* extended-css.js */; };
+		B4D9743E265C85BA00ACF645 /* ContentBlockerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */; };
+		B4D9743F265C85BA00ACF645 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D97435265C85BA00ACF645 /* script.js */; };
+		B4D97440265C85BA00ACF645 /* scriptlets.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D97436265C85BA00ACF645 /* scriptlets.js */; };
+		B4D97441265C85BA00ACF645 /* ContentBlockerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */; };
+		B4D9745C265C881600ACF645 /* custom-filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D9745B265C881600ACF645 /* custom-filter.txt */; };
+		B4D9745D265C881600ACF645 /* custom-filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D9745B265C881600ACF645 /* custom-filter.txt */; };
 		B4EE4C402651D185002EF4BC /* ContentBlockerConverter in Frameworks */ = {isa = PBXBuildFile; productRef = B4EE4C3F2651D185002EF4BC /* ContentBlockerConverter */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +98,17 @@
 		B4AA2D2E264F05F9008F224E /* TestBlocking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestBlocking.entitlements; sourceTree = "<group>"; };
 		B4AA2D3A264F0A88008F224E /* .build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = .build; path = "../safari-converter/.build"; sourceTree = "<group>"; };
 		B4AA2E58265031D5008F224E /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
+		B4D9742E265C85B900ACF645 /* BlockerEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockerEntry.swift; sourceTree = "<group>"; };
+		B4D9742F265C85B900ACF645 /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		B4D97430265C85BA00ACF645 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		B4D97432265C85BA00ACF645 /* BlockerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockerData.swift; sourceTree = "<group>"; };
+		B4D97433265C85BA00ACF645 /* extended-css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "extended-css.js"; sourceTree = "<group>"; };
+		B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockerController.swift; sourceTree = "<group>"; };
+		B4D97435265C85BA00ACF645 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		B4D97436265C85BA00ACF645 /* scriptlets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scriptlets.js; sourceTree = "<group>"; };
+		B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockerContainer.swift; sourceTree = "<group>"; };
+		B4D9745B265C881600ACF645 /* custom-filter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "custom-filter.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +148,7 @@
 		B443B759265084380042B678 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				B4D9745B265C881600ACF645 /* custom-filter.txt */,
 				B443B76E265084B90042B678 /* test-filter.txt */,
 			);
 			path = Filters;
@@ -207,6 +231,16 @@
 		B4AA2D28264F05F9008F224E /* TestBlocking */ = {
 			isa = PBXGroup;
 			children = (
+				B4D97432265C85BA00ACF645 /* BlockerData.swift */,
+				B4D9742E265C85B900ACF645 /* BlockerEntry.swift */,
+				B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */,
+				B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */,
+				B4D97433265C85BA00ACF645 /* extended-css.js */,
+				B4D9742F265C85B900ACF645 /* NetworkEngine.swift */,
+				B4D97430265C85BA00ACF645 /* SafariExtensionHandler.swift */,
+				B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */,
+				B4D97435265C85BA00ACF645 /* script.js */,
+				B4D97436265C85BA00ACF645 /* scriptlets.js */,
 				B4AA2D29264F05F9008F224E /* blockerList.json */,
 				B4AA2D2B264F05F9008F224E /* ContentBlockerRequestHandler.swift */,
 				B4AA2D2D264F05F9008F224E /* Info.plist */,
@@ -352,6 +386,7 @@
 				B443B76F265084B90042B678 /* test-filter.txt in Resources */,
 				B4AA2CF9264F05E3008F224E /* Preview Assets.xcassets in Resources */,
 				B4AA2CF6264F05E3008F224E /* Assets.xcassets in Resources */,
+				B4D9745C265C881600ACF645 /* custom-filter.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +409,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B443B7862651C4E00042B678 /* blockerList.json in Resources */,
+				B4D97440265C85BA00ACF645 /* scriptlets.js in Resources */,
+				B4D9743F265C85BA00ACF645 /* script.js in Resources */,
+				B4D9745D265C881600ACF645 /* custom-filter.txt in Resources */,
+				B4D9743D265C85BA00ACF645 /* extended-css.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B443B78B2651C5100042B678 /* Constants.swift in Sources */,
+				B4D97438265C85BA00ACF645 /* BlockerEntry.swift in Sources */,
+				B4D9743E265C85BA00ACF645 /* ContentBlockerController.swift in Sources */,
+				B4D9743C265C85BA00ACF645 /* BlockerData.swift in Sources */,
+				B4D9743B265C85BA00ACF645 /* SafariExtensionViewController.swift in Sources */,
+				B4D97441265C85BA00ACF645 /* ContentBlockerContainer.swift in Sources */,
+				B4D97439265C85BA00ACF645 /* NetworkEngine.swift in Sources */,
 				B4AA2D2C264F05F9008F224E /* ContentBlockerRequestHandler.swift in Sources */,
+				B4D9743A265C85BA00ACF645 /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
