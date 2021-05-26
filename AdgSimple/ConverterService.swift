@@ -35,7 +35,7 @@ class ConverterService {
         NSLog("Advanced Blocking: \(result!.advancedBlocking ?? "Empty")")
         return result!
     }
-    
+
     /**
      * Writes conversion result into file in groups directory
      */
@@ -43,7 +43,7 @@ class ConverterService {
         let dir = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.AdgSimple")
 
         let fileURL = dir!.appendingPathComponent(fileName)
-        
+
         NSLog("Path to the content blocker: \(fileURL.absoluteString)")
         do {
             try rules.write(to: fileURL)
@@ -52,13 +52,13 @@ class ConverterService {
             NSLog("Error saving conversion result")
         }
     }
-    
+
     static func applyConverter() {
         let rulesList = getRules()!
-        
+
         let rulesData = convertRules(rules: rulesList)!.converted.data(using: .utf8)
         saveConversionResult(rules: rulesData!, fileName: Constants.blockerListFilename)
-        
+
         if (convertRules(rules: rulesList)!.advancedBlocking != nil) {
             let advancedBlockingrulesData = convertRules(rules: rulesList)!.advancedBlocking!.data(using: .utf8)
             saveConversionResult(rules: advancedBlockingrulesData!, fileName: Constants.advancedBlockerListFilename)

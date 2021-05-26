@@ -1,5 +1,1 @@
-!tvinzz.dev#%#alert("Script rule works")
-!tvinzz.dev#$#body { background: green!important; }
-!
-~tvinzz.dev##.logos
-tvinzz.dev#@#.logos
+example.org#%#alert('Script rule works')
