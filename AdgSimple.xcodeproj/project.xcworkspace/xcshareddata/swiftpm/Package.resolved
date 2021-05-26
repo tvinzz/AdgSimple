@@ -12,7 +12,7 @@
       },
       {
         "package": "ContentBlockerConverter",
-        "repositoryURL": "/Volumes/Dev/safari-converter",
+        "repositoryURL": "https://github.com/AdguardTeam/SafariConverterLib",
         "state": {
           "branch": "master",
           "revision": "bf54f47db1b26b3aec3f5a220f297320744a1d1d",
