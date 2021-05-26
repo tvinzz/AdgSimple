@@ -15,36 +15,48 @@
 		B4AA2CF4264F05E2008F224E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2CF3264F05E2008F224E /* ContentView.swift */; };
 		B4AA2CF6264F05E3008F224E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AA2CF5264F05E3008F224E /* Assets.xcassets */; };
 		B4AA2CF9264F05E3008F224E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AA2CF8264F05E3008F224E /* Preview Assets.xcassets */; };
-		B4AA2D05264F05E3008F224E /* AdgSimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2D04264F05E3008F224E /* AdgSimpleTests.swift */; };
-		B4AA2D10264F05E3008F224E /* AdgSimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2D0F264F05E3008F224E /* AdgSimpleUITests.swift */; };
-		B4AA2D2C264F05F9008F224E /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2D2B264F05F9008F224E /* ContentBlockerRequestHandler.swift */; };
 		B4AA2D31264F05F9008F224E /* TestBlocking.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4AA2D24264F05F9008F224E /* TestBlocking.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B4AA2DBF264F6127008F224E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA2D26264F05F9008F224E /* Cocoa.framework */; };
 		B4AA2E59265031D5008F224E /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2E58265031D5008F224E /* ConverterService.swift */; };
+		B4D9745C265C881600ACF645 /* custom-filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D9745B265C881600ACF645 /* custom-filter.txt */; };
+		B4D9745D265C881600ACF645 /* custom-filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D9745B265C881600ACF645 /* custom-filter.txt */; };
+		B4D975D0265D5E3C00ACF645 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA2D26264F05F9008F224E /* Cocoa.framework */; };
+		B4D975D3265D5E3C00ACF645 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D975D2265D5E3C00ACF645 /* SafariExtensionHandler.swift */; };
+		B4D975D8265D5E3D00ACF645 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D975D7265D5E3C00ACF645 /* script.js */; };
+		B4D975DA265D5E3D00ACF645 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B4D975D9265D5E3D00ACF645 /* ToolbarItemIcon.pdf */; };
+		B4D975DD265D5E3D00ACF645 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D975DB265D5E3D00ACF645 /* SafariExtensionViewController.xib */; };
+		B4D975E2265D5E3D00ACF645 /* AdvancedBlockingExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4D975CF265D5E3C00ACF645 /* AdvancedBlockingExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4D97615265D642D00ACF645 /* extended-css.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D97433265C85BA00ACF645 /* extended-css.js */; };
+		B4D97619265D643200ACF645 /* scriptlets.js in Resources */ = {isa = PBXBuildFile; fileRef = B4D97436265C85BA00ACF645 /* scriptlets.js */; };
+		B4D97621265D649D00ACF645 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97620265D649D00ACF645 /* ContentBlockerRequestHandler.swift */; };
+		B4D97622265D649D00ACF645 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97620265D649D00ACF645 /* ContentBlockerRequestHandler.swift */; };
+		B4D97626265D651D00ACF645 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9742F265C85B900ACF645 /* NetworkEngine.swift */; };
+		B4D97627265D651D00ACF645 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */; };
+		B4D97629265D651D00ACF645 /* BlockerEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D9742E265C85B900ACF645 /* BlockerEntry.swift */; };
+		B4D9762A265D651D00ACF645 /* ContentBlockerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */; };
+		B4D9762B265D651D00ACF645 /* ContentBlockerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */; };
+		B4D9762C265D651D00ACF645 /* BlockerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D97432265C85BA00ACF645 /* BlockerData.swift */; };
+		B4D9763C265D65FB00ACF645 /* ConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA2E58265031D5008F224E /* ConverterService.swift */; };
+		B4D97641265D661D00ACF645 /* ContentBlockerConverter in Frameworks */ = {isa = PBXBuildFile; productRef = B4D97640265D661D00ACF645 /* ContentBlockerConverter */; };
+		B4D97645265D664200ACF645 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B443B77C2651C3B10042B678 /* Constants.swift */; };
+		B4D9765E265D939900ACF645 /* custom-filter.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4D9745B265C881600ACF645 /* custom-filter.txt */; };
 		B4EE4C402651D185002EF4BC /* ContentBlockerConverter in Frameworks */ = {isa = PBXBuildFile; productRef = B4EE4C3F2651D185002EF4BC /* ContentBlockerConverter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B4AA2D01264F05E3008F224E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4AA2CE6264F05E2008F224E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4AA2CED264F05E2008F224E;
-			remoteInfo = AdgSimple;
-		};
-		B4AA2D0C264F05E3008F224E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4AA2CE6264F05E2008F224E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4AA2CED264F05E2008F224E;
-			remoteInfo = AdgSimple;
-		};
 		B4AA2D2F264F05F9008F224E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B4AA2CE6264F05E2008F224E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4AA2D23264F05F9008F224E;
 			remoteInfo = TestBlocking;
+		};
+		B4D975E0265D5E3D00ACF645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4AA2CE6264F05E2008F224E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D975CE265D5E3C00ACF645;
+			remoteInfo = AdvancedBlockingExt;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +68,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				B4AA2D31264F05F9008F224E /* TestBlocking.appex in Embed App Extensions */,
+				B4D975E2265D5E3D00ACF645 /* AdvancedBlockingExt.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,20 +85,30 @@
 		B4AA2CF8264F05E3008F224E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4AA2CFA264F05E3008F224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AA2CFB264F05E3008F224E /* AdgSimple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdgSimple.entitlements; sourceTree = "<group>"; };
-		B4AA2D00264F05E3008F224E /* AdgSimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdgSimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4AA2D04264F05E3008F224E /* AdgSimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdgSimpleTests.swift; sourceTree = "<group>"; };
-		B4AA2D06264F05E3008F224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4AA2D0B264F05E3008F224E /* AdgSimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdgSimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4AA2D0F264F05E3008F224E /* AdgSimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdgSimpleUITests.swift; sourceTree = "<group>"; };
-		B4AA2D11264F05E3008F224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AA2D24264F05F9008F224E /* TestBlocking.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestBlocking.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA2D26264F05F9008F224E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B4AA2D29264F05F9008F224E /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
-		B4AA2D2B264F05F9008F224E /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		B4AA2D2D264F05F9008F224E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AA2D2E264F05F9008F224E /* TestBlocking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestBlocking.entitlements; sourceTree = "<group>"; };
 		B4AA2D3A264F0A88008F224E /* .build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = .build; path = "../safari-converter/.build"; sourceTree = "<group>"; };
 		B4AA2E58265031D5008F224E /* ConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterService.swift; sourceTree = "<group>"; };
+		B4D9742E265C85B900ACF645 /* BlockerEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockerEntry.swift; sourceTree = "<group>"; };
+		B4D9742F265C85B900ACF645 /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafariExtensionViewController.swift; path = ../TestBlocking/SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		B4D97432265C85BA00ACF645 /* BlockerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockerData.swift; sourceTree = "<group>"; };
+		B4D97433265C85BA00ACF645 /* extended-css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "extended-css.js"; sourceTree = "<group>"; };
+		B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockerController.swift; sourceTree = "<group>"; };
+		B4D97436265C85BA00ACF645 /* scriptlets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scriptlets.js; sourceTree = "<group>"; };
+		B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockerContainer.swift; sourceTree = "<group>"; };
+		B4D9745B265C881600ACF645 /* custom-filter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "custom-filter.txt"; sourceTree = "<group>"; };
+		B4D975CF265D5E3C00ACF645 /* AdvancedBlockingExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AdvancedBlockingExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D975D2265D5E3C00ACF645 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		B4D975D7265D5E3C00ACF645 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		B4D975D9265D5E3D00ACF645 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		B4D975DC265D5E3D00ACF645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		B4D975DE265D5E3D00ACF645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D975DF265D5E3D00ACF645 /* AdvancedBlockingExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdvancedBlockingExt.entitlements; sourceTree = "<group>"; };
+		B4D97620265D649D00ACF645 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,25 +120,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4AA2CFD264F05E3008F224E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4AA2D08264F05E3008F224E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4AA2D21264F05F9008F224E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B4AA2DBF264F6127008F224E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D975CC265D5E3C00ACF645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D97641265D661D00ACF645 /* ContentBlockerConverter in Frameworks */,
+				B4D975D0265D5E3C00ACF645 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +143,7 @@
 		B443B759265084380042B678 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				B4D9745B265C881600ACF645 /* custom-filter.txt */,
 				B443B76E265084B90042B678 /* test-filter.txt */,
 			);
 			path = Filters;
@@ -135,9 +154,8 @@
 			children = (
 				B443B759265084380042B678 /* Filters */,
 				B4AA2CF0264F05E2008F224E /* AdgSimple */,
-				B4AA2D03264F05E3008F224E /* AdgSimpleTests */,
-				B4AA2D0E264F05E3008F224E /* AdgSimpleUITests */,
 				B4AA2D28264F05F9008F224E /* TestBlocking */,
+				B4D975D1265D5E3C00ACF645 /* AdvancedBlockingExt */,
 				B4AA2D25264F05F9008F224E /* Frameworks */,
 				B4AA2CEF264F05E2008F224E /* Products */,
 			);
@@ -147,9 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				B4AA2CEE264F05E2008F224E /* AdgSimple.app */,
-				B4AA2D00264F05E3008F224E /* AdgSimpleTests.xctest */,
-				B4AA2D0B264F05E3008F224E /* AdgSimpleUITests.xctest */,
 				B4AA2D24264F05F9008F224E /* TestBlocking.appex */,
+				B4D975CF265D5E3C00ACF645 /* AdvancedBlockingExt.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,24 +194,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B4AA2D03264F05E3008F224E /* AdgSimpleTests */ = {
-			isa = PBXGroup;
-			children = (
-				B4AA2D04264F05E3008F224E /* AdgSimpleTests.swift */,
-				B4AA2D06264F05E3008F224E /* Info.plist */,
-			);
-			path = AdgSimpleTests;
-			sourceTree = "<group>";
-		};
-		B4AA2D0E264F05E3008F224E /* AdgSimpleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B4AA2D0F264F05E3008F224E /* AdgSimpleUITests.swift */,
-				B4AA2D11264F05E3008F224E /* Info.plist */,
-			);
-			path = AdgSimpleUITests;
-			sourceTree = "<group>";
-		};
 		B4AA2D25264F05F9008F224E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,11 +207,40 @@
 			isa = PBXGroup;
 			children = (
 				B4AA2D29264F05F9008F224E /* blockerList.json */,
-				B4AA2D2B264F05F9008F224E /* ContentBlockerRequestHandler.swift */,
 				B4AA2D2D264F05F9008F224E /* Info.plist */,
 				B4AA2D2E264F05F9008F224E /* TestBlocking.entitlements */,
+				B4D97620265D649D00ACF645 /* ContentBlockerRequestHandler.swift */,
 			);
 			path = TestBlocking;
+			sourceTree = "<group>";
+		};
+		B4D975D1265D5E3C00ACF645 /* AdvancedBlockingExt */ = {
+			isa = PBXGroup;
+			children = (
+				B4D975D2265D5E3C00ACF645 /* SafariExtensionHandler.swift */,
+				B4D97432265C85BA00ACF645 /* BlockerData.swift */,
+				B4D9742E265C85B900ACF645 /* BlockerEntry.swift */,
+				B4D97437265C85BA00ACF645 /* ContentBlockerContainer.swift */,
+				B4D97434265C85BA00ACF645 /* ContentBlockerController.swift */,
+				B4D9742F265C85B900ACF645 /* NetworkEngine.swift */,
+				B4D97431265C85BA00ACF645 /* SafariExtensionViewController.swift */,
+				B4D975DB265D5E3D00ACF645 /* SafariExtensionViewController.xib */,
+				B4D975DE265D5E3D00ACF645 /* Info.plist */,
+				B4D975DF265D5E3D00ACF645 /* AdvancedBlockingExt.entitlements */,
+				B4D975D6265D5E3C00ACF645 /* Resources */,
+			);
+			path = AdvancedBlockingExt;
+			sourceTree = "<group>";
+		};
+		B4D975D6265D5E3C00ACF645 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D97433265C85BA00ACF645 /* extended-css.js */,
+				B4D97436265C85BA00ACF645 /* scriptlets.js */,
+				B4D975D7265D5E3C00ACF645 /* script.js */,
+				B4D975D9265D5E3D00ACF645 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,7 @@
 			);
 			dependencies = (
 				B4AA2D30264F05F9008F224E /* PBXTargetDependency */,
+				B4D975E1265D5E3D00ACF645 /* PBXTargetDependency */,
 			);
 			name = AdgSimple;
 			packageProductDependencies = (
@@ -239,42 +268,6 @@
 			productName = AdgSimple;
 			productReference = B4AA2CEE264F05E2008F224E /* AdgSimple.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B4AA2CFF264F05E3008F224E /* AdgSimpleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4AA2D17264F05E3008F224E /* Build configuration list for PBXNativeTarget "AdgSimpleTests" */;
-			buildPhases = (
-				B4AA2CFC264F05E3008F224E /* Sources */,
-				B4AA2CFD264F05E3008F224E /* Frameworks */,
-				B4AA2CFE264F05E3008F224E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4AA2D02264F05E3008F224E /* PBXTargetDependency */,
-			);
-			name = AdgSimpleTests;
-			productName = AdgSimpleTests;
-			productReference = B4AA2D00264F05E3008F224E /* AdgSimpleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B4AA2D0A264F05E3008F224E /* AdgSimpleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4AA2D1A264F05E3008F224E /* Build configuration list for PBXNativeTarget "AdgSimpleUITests" */;
-			buildPhases = (
-				B4AA2D07264F05E3008F224E /* Sources */,
-				B4AA2D08264F05E3008F224E /* Frameworks */,
-				B4AA2D09264F05E3008F224E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B4AA2D0D264F05E3008F224E /* PBXTargetDependency */,
-			);
-			name = AdgSimpleUITests;
-			productName = AdgSimpleUITests;
-			productReference = B4AA2D0B264F05E3008F224E /* AdgSimpleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		B4AA2D23264F05F9008F224E /* TestBlocking */ = {
 			isa = PBXNativeTarget;
@@ -295,6 +288,26 @@
 			productReference = B4AA2D24264F05F9008F224E /* TestBlocking.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		B4D975CE265D5E3C00ACF645 /* AdvancedBlockingExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D975E3265D5E3D00ACF645 /* Build configuration list for PBXNativeTarget "AdvancedBlockingExt" */;
+			buildPhases = (
+				B4D975CB265D5E3C00ACF645 /* Sources */,
+				B4D975CC265D5E3C00ACF645 /* Frameworks */,
+				B4D975CD265D5E3C00ACF645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedBlockingExt;
+			packageProductDependencies = (
+				B4D97640265D661D00ACF645 /* ContentBlockerConverter */,
+			);
+			productName = AdvancedBlockingExt;
+			productReference = B4D975CF265D5E3C00ACF645 /* AdvancedBlockingExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,15 +320,10 @@
 					B4AA2CED264F05E2008F224E = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					B4AA2CFF264F05E3008F224E = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = B4AA2CED264F05E2008F224E;
-					};
-					B4AA2D0A264F05E3008F224E = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = B4AA2CED264F05E2008F224E;
-					};
 					B4AA2D23264F05F9008F224E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B4D975CE265D5E3C00ACF645 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -337,9 +345,8 @@
 			projectRoot = "";
 			targets = (
 				B4AA2CED264F05E2008F224E /* AdgSimple */,
-				B4AA2CFF264F05E3008F224E /* AdgSimpleTests */,
-				B4AA2D0A264F05E3008F224E /* AdgSimpleUITests */,
 				B4AA2D23264F05F9008F224E /* TestBlocking */,
+				B4D975CE265D5E3C00ACF645 /* AdvancedBlockingExt */,
 			);
 		};
 /* End PBXProject section */
@@ -352,20 +359,7 @@
 				B443B76F265084B90042B678 /* test-filter.txt in Resources */,
 				B4AA2CF9264F05E3008F224E /* Preview Assets.xcassets in Resources */,
 				B4AA2CF6264F05E3008F224E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4AA2CFE264F05E3008F224E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4AA2D09264F05E3008F224E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B4D9745C265C881600ACF645 /* custom-filter.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +368,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B443B7862651C4E00042B678 /* blockerList.json in Resources */,
+				B4D9745D265C881600ACF645 /* custom-filter.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D975CD265D5E3C00ACF645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D9765E265D939900ACF645 /* custom-filter.txt in Resources */,
+				B4D97619265D643200ACF645 /* scriptlets.js in Resources */,
+				B4D975DD265D5E3D00ACF645 /* SafariExtensionViewController.xib in Resources */,
+				B4D97615265D642D00ACF645 /* extended-css.js in Resources */,
+				B4D975DA265D5E3D00ACF645 /* ToolbarItemIcon.pdf in Resources */,
+				B4D975D8265D5E3D00ACF645 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,25 +393,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4AA2CF4264F05E2008F224E /* ContentView.swift in Sources */,
+				B4D97621265D649D00ACF645 /* ContentBlockerRequestHandler.swift in Sources */,
 				B4AA2E59265031D5008F224E /* ConverterService.swift in Sources */,
 				B4AA2CF2264F05E2008F224E /* AdgSimpleApp.swift in Sources */,
 				B443B77D2651C3B10042B678 /* Constants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4AA2CFC264F05E3008F224E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4AA2D05264F05E3008F224E /* AdgSimpleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4AA2D07264F05E3008F224E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4AA2D10264F05E3008F224E /* AdgSimpleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,29 +405,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				B443B78B2651C5100042B678 /* Constants.swift in Sources */,
-				B4AA2D2C264F05F9008F224E /* ContentBlockerRequestHandler.swift in Sources */,
+				B4D97622265D649D00ACF645 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D975CB265D5E3C00ACF645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D9762B265D651D00ACF645 /* ContentBlockerContainer.swift in Sources */,
+				B4D97627265D651D00ACF645 /* SafariExtensionViewController.swift in Sources */,
+				B4D9763C265D65FB00ACF645 /* ConverterService.swift in Sources */,
+				B4D97629265D651D00ACF645 /* BlockerEntry.swift in Sources */,
+				B4D9762A265D651D00ACF645 /* ContentBlockerController.swift in Sources */,
+				B4D975D3265D5E3C00ACF645 /* SafariExtensionHandler.swift in Sources */,
+				B4D97626265D651D00ACF645 /* NetworkEngine.swift in Sources */,
+				B4D9762C265D651D00ACF645 /* BlockerData.swift in Sources */,
+				B4D97645265D664200ACF645 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4AA2D02264F05E3008F224E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B4AA2CED264F05E2008F224E /* AdgSimple */;
-			targetProxy = B4AA2D01264F05E3008F224E /* PBXContainerItemProxy */;
-		};
-		B4AA2D0D264F05E3008F224E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B4AA2CED264F05E2008F224E /* AdgSimple */;
-			targetProxy = B4AA2D0C264F05E3008F224E /* PBXContainerItemProxy */;
-		};
 		B4AA2D30264F05F9008F224E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B4AA2D23264F05F9008F224E /* TestBlocking */;
 			targetProxy = B4AA2D2F264F05F9008F224E /* PBXContainerItemProxy */;
 		};
+		B4D975E1265D5E3D00ACF645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4D975CE265D5E3C00ACF645 /* AdvancedBlockingExt */;
+			targetProxy = B4D975E0265D5E3D00ACF645 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4D975DB265D5E3D00ACF645 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D975DC265D5E3D00ACF645 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B4AA2D12264F05E3008F224E /* Debug */ = {
@@ -605,86 +620,6 @@
 			};
 			name = Release;
 		};
-		B4AA2D18264F05E3008F224E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdgSimpleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdgSimple.app/Contents/MacOS/AdgSimple";
-			};
-			name = Debug;
-		};
-		B4AA2D19264F05E3008F224E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdgSimpleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimpleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdgSimple.app/Contents/MacOS/AdgSimple";
-			};
-			name = Release;
-		};
-		B4AA2D1B264F05E3008F224E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdgSimpleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimpleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AdgSimple;
-			};
-			name = Debug;
-		};
-		B4AA2D1C264F05E3008F224E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdgSimpleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimpleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = AdgSimple;
-			};
-			name = Release;
-		};
 		B4AA2D33264F05F9008F224E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -723,6 +658,46 @@
 			};
 			name = Release;
 		};
+		B4D975E4265D5E3D00ACF645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AdvancedBlockingExt/AdvancedBlockingExt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC3Q7MAJXF;
+				INFOPLIST_FILE = AdvancedBlockingExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimple.AdvancedBlockingExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4D975E5265D5E3D00ACF645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AdvancedBlockingExt/AdvancedBlockingExt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC3Q7MAJXF;
+				INFOPLIST_FILE = AdvancedBlockingExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tvinzz.AdgSimple.AdvancedBlockingExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -744,29 +719,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4AA2D17264F05E3008F224E /* Build configuration list for PBXNativeTarget "AdgSimpleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4AA2D18264F05E3008F224E /* Debug */,
-				B4AA2D19264F05E3008F224E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4AA2D1A264F05E3008F224E /* Build configuration list for PBXNativeTarget "AdgSimpleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4AA2D1B264F05E3008F224E /* Debug */,
-				B4AA2D1C264F05E3008F224E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B4AA2D32264F05F9008F224E /* Build configuration list for PBXNativeTarget "TestBlocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4AA2D33264F05F9008F224E /* Debug */,
 				B4AA2D34264F05F9008F224E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D975E3265D5E3D00ACF645 /* Build configuration list for PBXNativeTarget "AdvancedBlockingExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D975E4265D5E3D00ACF645 /* Debug */,
+				B4D975E5265D5E3D00ACF645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -785,6 +751,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B4D97640265D661D00ACF645 /* ContentBlockerConverter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4EE4C3E2651D185002EF4BC /* XCRemoteSwiftPackageReference "SafariConverterLib" */;
+			productName = ContentBlockerConverter;
+		};
 		B4EE4C3F2651D185002EF4BC /* ContentBlockerConverter */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B4EE4C3E2651D185002EF4BC /* XCRemoteSwiftPackageReference "SafariConverterLib" */;

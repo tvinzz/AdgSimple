@@ -28,6 +28,16 @@ struct AdgSimpleApp: App {
                 NSLog("Content blocker state: \(contentBlockerIsEnabled ? "Enabled" : "Disabled")")
             }
         })
+        
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: "dev.tvinzz.AdgSimple.AdvancedBlockingExt", completionHandler: { (state, error) in
+            if let error = error {
+                NSLog("Advanced Blocking error: \(error)")
+            }
+            if let state = state {
+                let advancedBlockingExtIsEnabled = state.isEnabled
+                NSLog("Advanced Blocking Extension state: \(advancedBlockingExtIsEnabled ? "Enabled" : "Disabled")")
+            }
+        })
     }
     
     var body: some Scene {
