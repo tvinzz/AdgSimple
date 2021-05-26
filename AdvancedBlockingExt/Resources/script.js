@@ -6,13 +6,7 @@
 
 /* global safari, ExtendedCss */
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    alert("REQUESTNG BLOCKER DATA");
-    safari.extension.dispatchMessage('getAdvancedBlockingData', { 'url': window.location.href });
-});
-
 (() => {
-    alert("REQUESTNG BLOCKER DATA")
     /**
      * Execute scripts in a page context and cleanup itself when execution completes
      * @param scripts Scripts array to execute
@@ -226,8 +220,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (document instanceof HTMLDocument) {
         if (window.location.href && window.location.href.indexOf('http') === 0) {
             safari.self.addEventListener('message', handleMessage);
-            
-            alert("REQUESTNG BLOCKER DATA")
 
             // Request advanced blocking data
             safari.extension.dispatchMessage('getAdvancedBlockingData', { 'url': window.location.href });

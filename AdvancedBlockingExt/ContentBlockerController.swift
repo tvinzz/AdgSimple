@@ -27,10 +27,27 @@ class ContentBlockerController {
 
         setupJson();
     }
+    
+    /**
+     * Reads rules from test filter
+     */
+    func getRules() -> [String]? {
+        let filePath = Bundle.main.url(forResource: "custom-filter", withExtension: "txt")
+        do {
+            let rules = try String(contentsOf: filePath!, encoding: .utf8)
+            let result = rules.components(separatedBy: "\n")
+            NSLog("\(result)")
+            return result
+        }
+        catch {
+            NSLog("Error reading test filter")
+        }
+        return nil
+    }
 
     func initJson() throws {
 //        let text = try String(contentsOfFile: AESharedResources.advancedBlockingContentRulesUrlString()!, encoding: .utf8);
-        let rulesList = ConverterService.getRules()!;
+        let rulesList = getRules()!;
         let conversionResult = ConverterService.convertRules(rules: rulesList)!
         if (conversionResult.advancedBlocking != nil) {
 //            let rulesData = conversionResult.advancedBlocking!.data(using: .utf8)
