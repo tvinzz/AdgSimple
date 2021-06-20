@@ -15,11 +15,11 @@ struct AdgSimpleApp: App {
         ConverterService.applyConverter();
         // reload TestBlocking extension
         NSLog("Start reloading the content blocker")
-        SFContentBlockerManager.reloadContentBlocker(withIdentifier: "dev.tvinzz.AdgSimple.TestBlocking", completionHandler: { _ in
+        SFContentBlockerManager.reloadContentBlocker(withIdentifier: "dev.tvinzz.AdgSimple.ContentBlocker", completionHandler: { _ in
             NSLog("Finished reloading the content blocker")
         })
         
-        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "dev.tvinzz.AdgSimple.TestBlocking", completionHandler: { (state, error) in
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "dev.tvinzz.AdgSimple.ContentBlocker", completionHandler: { (state, error) in
             if let error = error {
                 NSLog("Content blocker error: \(error)")
             }

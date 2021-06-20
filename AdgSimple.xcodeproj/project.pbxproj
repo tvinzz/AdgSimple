@@ -729,8 +729,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "file:///Volumes/Dev/safari-converter";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = revision;
+				revision = 6aa6e83af858a33a0ff9a5ca56b2fe36a13d3ebf;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

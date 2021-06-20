@@ -17,7 +17,7 @@ class ConverterService {
         do {
             let rules = try String(contentsOf: filePath!, encoding: .utf8)
             let result = rules.components(separatedBy: "\n")
-            NSLog("\(result)")
+            NSLog("Filter rules: \(result)")
             return result
         }
         catch {
